@@ -42,3 +42,19 @@ contract Square
         return square;
     } 
 }
+
+contract doublenum
+{
+    function double(uint num) public pure returns(uint)
+    {
+        return 2*num;
+    }
+}
+
+contract equality
+{
+    function equal(uint num1,uint num2) public pure returns(bool)
+    {
+        return num1 == num2;
+    }
+}
